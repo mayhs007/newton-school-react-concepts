@@ -1,0 +1,12 @@
+.text-red {
+     color: red
+}
+
+.text-blue {
+     color: blue;
+}
+
+.font-lg {
+     font-size: 2rem;
+     padding: 10px;
+}
