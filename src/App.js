@@ -13,6 +13,7 @@ import React from "react"
 import { MainContext } from "./Context/ContextThemeColor"
 import ContextDemo from "./components/ContextDemo/ContextDemo"
 import { Reducer } from "./components/Reducer/Reducer"
+import { UseEffect } from "./components/UseEffect/UseEffect"
 
 //Normal
 export default class App extends React.Component {
@@ -37,7 +38,8 @@ export default class App extends React.Component {
         {/* <Validation></Validation> */}
         {/* <ClassComponent></ClassComponent> */}
         {/* <ContextDemo></ContextDemo> */}
-        <Reducer></Reducer>
+        {/* <Reducer></Reducer> */}
+        <UseEffect></UseEffect>
       </div>
     )
   }
