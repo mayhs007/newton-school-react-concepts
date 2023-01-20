@@ -17,14 +17,6 @@ import { UseEffect } from "./components/UseEffect/UseEffect"
 
 //Normal
 export default class App extends React.Component {
-  state = {
-    profile: "",
-    setProfile: this.setProfile,
-  }
-  //This is the method to set the  context data
-  setProfile = profile => {
-    this.setState({ profile })
-  }
   render() {
     return (
       <div>
